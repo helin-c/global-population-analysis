@@ -1,15 +1,15 @@
 # GlobalTech: Python Population Demographics Analysis
 
 ## 🌍 Project Overview
-This project was completed as a technical delivery task for a Data Analyst application at GlobalTech, a company that contracts for data analysis with government departments. The objective was to analyze a dataset (`population.csv`) containing global population statistics across multiple years using Python.
+This project was completed as a technical delivery task for a Data Analyst application at GlobalTech, a company that contracts for data analysis with government departments. The objective was to analyse a dataset (`population.csv`) containing global population statistics across multiple years using Python.
 
 ## 🛠️ Tools & Techniques
 * **Python:** Core language used for the entire analysis.
 * **Pandas:** Utilized for data loading, cleaning, filtering, reshaping, and mathematical manipulation.
 * **Matplotlib:** Used to generate visual insights, including bar charts, scatter plots, and line graphs.
-* **Data Cleaning & Preparation:** The dataset was first inspected for missing values, duplicates, and data type issues. There were 8 rows found that contained missing (NaN) values in the population column. These rows were removed before analyzing, as missing population values would misrepresent calculations involving totals, averages, and growth rates. Population values recorded as zero were intentionally retained, as they represent recorded data rather than missing entries, and no duplicate rows were identified.
+* **Data Cleaning & Preparation:** The dataset was first inspected for missing values, duplicates, and data type issues. There were 8 rows found that contained missing (NaN) values in the population column. These rows were removed before analysing, as missing population values would misrepresent calculations involving totals, averages, and growth rates. Population values recorded as zero were intentionally retained, as they represent recorded data rather than missing entries, and no duplicate rows were identified.
 
-## 📊 Key Findings & Visualizations
+## 📊 Key Findings & Visualisations
 
 ### 1. Missing Population Data (2000)
 **Question:** How many countries had no recorded population data (0) for the year 2000? 
@@ -27,7 +27,7 @@ This project was completed as a technical delivery task for a Data Analyst appli
 
 ### 4. The 1 Billion Population Threshold (2007)
 **Question:** Identify the countries with populations exceeding 1000 million in 2007.
-* **Insight:** Only China (1,310.0 million) and India (1,124.0 million) exceeded the 1,000 million population threshold in 2007. Two scatter plots were created to visualize this result. The first plot displayed all countries ranked by population to avoid overcrowding on the x-axis, clearly highlighting China and India as extreme outliers. A second scatter plot focused strictly on the top 20 countries, allowing country names to be shown and making it easier to identify which countries are closer to, but do not exceed, the threshold.
+* **Insight:** Only China (1,310.0 million) and India (1,124.0 million) exceeded the 1,000 million population threshold in 2007. Two scatter plots were created to visualise this result. The first plot displayed all countries ranked by population to avoid overcrowding on the x-axis, clearly highlighting China and India as extreme outliers. A second scatter plot focused strictly on the top 20 countries, allowing country names to be shown and making it easier to identify which countries are closer to, but do not exceed, the threshold.
 
 ![Top 20 Scatter Plots](https://github.com/helin-c/global-population-analysis/blob/main/Q4.2.png?raw=true)
 
